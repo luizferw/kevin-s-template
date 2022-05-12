@@ -92,7 +92,7 @@ section header h4 {
 
 section header h2 {
   font-size: 3rem;
-  line-height: 3.9rem;
+  line-height: 3.9rem;var(--bg-light)
 
   color: var(--headline);
 }
@@ -141,6 +141,7 @@ nav .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: black;
 }
 
 #navigation .wrapper a.logo h2 {
