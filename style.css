@@ -135,13 +135,13 @@ nav {
   top: 0;
   width: 100vw;
   z-index: 100;
+  background: black;
 }
 
 nav .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: black;
 }
 
 #navigation .wrapper a.logo h2 {
