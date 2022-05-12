@@ -147,7 +147,7 @@ nav .wrapper {
   color: white;
 }
 
-nav.scroll {
+nav.scroll .wrapper {
   background-color: black;
 }
 
