@@ -264,7 +264,7 @@ nav .menu li a:hover {
 #header p {
   color: white;
 
-  font-size: 2rem;
+  font-size: 1.2rem;
 
   margin-bottom: 3rem;
 }
@@ -355,6 +355,15 @@ footer {
 }
 
 /* ====== RESPONSIVE ======================================== */
+@media (min-width: 300px) {
+  #header .content h2 {
+    font-size: 2.5rem;
+  }
+
+  #header .content p {
+    font-size: 1.4rem;
+  }
+}
 @media (min-width: 350px) {
   nav#navigation {
     height: calc(var(--nav-height) - 1.3rem);
@@ -374,6 +383,14 @@ footer {
 
   nav#navigation .menu a {
     font-size: 1rem;
+  }
+
+  #header .content h2 {
+    font-size: 3rem;
+  }
+
+  #header .content p {
+    font-size: 1.5rem;
   }
 }
 
@@ -397,6 +414,10 @@ footer {
 
   nav#navigation .menu a {
     font-size: 1.2rem;
+  }
+
+  #header .content h2 {
+    font-size: 3.3rem;
   }
 }
 
