@@ -1,13 +1,9 @@
 /* ====== GERAL ======================================== */
 :root {
-  --hue: 290;
   --primary-color: #000;
   --headline: #000;
   --paragraph: #000;
-  --brand-beige: white;
   --brand-light: #fbf9f5;
-  --brand-light-2: #fff;
-  --brand-dark: hsla(var(--hue), 100%, 14%, 1);
   --bg-light: hsla(180, 14%, 97%, 1);
 
   font-size: 62.5%;
